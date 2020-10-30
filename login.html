@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<title>六角甜點工坊-登入</title>
+	<link rel="icon" href="img/favicon.ico">
+	<!--boostrap 4.5.2(custom)-->
+	<link rel="stylesheet" href="public/stylesheets/all.css">
+	<!--fontawesome 5.14-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+</head>
+<body>
+	<nav class="navbar navbar-expand-md d-flex navbar-light bg-white px-1 py-4">
+		<div class="container">
+			<button class="navbar-toggler text-theme" type="button" data-toggle="collapse" data-target="#navLink">
+	   			<i class="far fa-minus-square"></i>
+	  		</button>
+			<div class="navbar-brand">
+				<h1 class="h3 text-themeDark"><i class="fas fa-cookie-bite"></i>六角甜點工坊</h1>
+			</div>
+			<a href="carts.html" class="order-md-1 btn text-themeDark">
+				<i class="fas fa-shopping-cart"></i>
+			</a>
+			<div class="collapse navbar-collapse" id="navLink">
+				<div class="navbar-nav ml-auto text-md-left">
+					<a href="index.html" class="text-themeText px-md-4 nav-item nav-link">首頁</a>
+					<a href="product.html" class="text-themeText px-md-4 nav-item nav-link">甜點</a>
+					<a href="login.html" class="text-themeDark px-md-4 nav-item nav-link active">登入</a>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<section>
+		<div class="container px-0 px-md-3 my-md-6">
+			<div class="row no-gutters justify-content-center">
+				<div class="col-md-10">
+					<div class="bg-themeDark">
+							<div class="p-4 d-md-none">
+									<h1 class="my-2 text-center text-white">會員登入</h1>
+							</div>
+						</div>
+					<div class="row no-gutters flex-md-row-reverse">
+						<div class="col-md-6 py-md-3">
+							<div class="bg-themeLight p-4">
+								<h2 class="h4 text-themeText text-center mb-3 d-none d-md-block">—— 連結社群帳號 ——</h2>
+								<div class="row no-gutters">
+									<div class="col-4 col-md-12 mb-md-4">
+										<button class="btn btn-lg btn-block btn-light border rounded-0 py-3 h-100">
+											<img src="img/ic-facebook-logotype.svg" alt="" width="108" class="img-fluid">
+										</button>
+									</div>
+									<div class="col-4 col-md-12 mb-md-4">
+										<button class="btn btn-lg btn-block btn-light border rounded-0 py-3 h-100">
+											<img src="img/ic-google.svg" alt="" width="108" class="img-fluid">
+										</button>
+									</div>
+									<div class="col-4 col-md-12 mb-md-4">
+										<button class="btn btn-lg btn-block btn-light border rounded-0 py-3 h-100">
+											<img src="img/ic-yahoo.svg" alt="" width="108" class="img-fluid">
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="bg-themeDark">
+								<div class="p-4 d-md-block d-none">
+									<h1 class="my-2 text-center text-white">會員登入</h1>
+								</div>
+								<div class="login-block p-4 pt-md-0">
+									<div class="d-flex justify-content-between bg-themeLight mb-3">
+										<label for="username" class="login-icon d-flex align-items-center"><i class="fas fa-user text-themeDark"></i></label>
+										<input type="text" id="username" class="login-input w-100" placeholder="電子信箱/手機號碼">
+									</div>
+									<div class="d-flex justify-content-between bg-themeLight mb-3">
+										<label for="password" class="login-icon d-flex align-items-center"><i class="fas fa-key text-themeDark"></i></label>
+										<input type="password" id="password" class="login-input w-100" placeholder="請輸入使用者密碼">
+									</div>
+									<div class="form-check pl-0">
+										<input type="checkbox" class="form-check-box" id="remeberme">
+										<label for="remeberme" class="text-white">記住我</label>
+									</div>
+								</div>
+								<button class="btn btn-lg btn-themeLight btn-block rounded-0 bg-themeHighlight text-themeDark py-3">登入帳號</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="bg-themeDark py-4">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-md-5 d-flex justify-content-md-start justify-content-center align-items-center pb-3 pb-md-0">
+						<span class="h4 text-right text-white">訂閱你我的甜蜜郵件</span>
+					</div>
+					<div class="col-md-5">
+						<div class="sub-block d-flex justify-content-between bg-themeLight">
+							<label for="subscription" class="sub-icon d-flex align-items-center">
+								<i class="far fa-envelope fa-2x text-themeDark"></i>
+							</label>
+							<input type="email" id="subscription" class="sub-input w-100">
+							<button class="btn btn-lg d-flex align-items-center btn-sub"><i class="fas fa-arrow-right"></i></button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="py-4 bg-themeLight footer">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-5 d-flex flex-column justify-content-between align-items-start">
+					<img src="img/logotype-sm-dark.svg" alt="" height="27px">
+					<ul class="mt-5 text-themeDark">
+						<li>07-1234-5678</li>
+						<li>sweetaste@email.com</li>
+						<li>800 高雄市新興區幸福路 520 號</li>
+					</ul>
+				</div>
+				<div class="col-md-5 d-flex justify-content-end">
+					<img src="img/sm-今天是個吃甜點的好日子.svg" alt="" width="60" class="d-none d-md-block">
+				</div>
+			</div>
+			<div class="row justify-content-center mt-3">
+				<div class="col-md-5">
+					<a href="#"><i class="fab fa-facebook-square fa-2x text-themeDark"></i></a>
+					<a href="#"><i class="fab fa-twitter-square fa-2x text-themeDark"></i></a>
+				</div>
+				<div class="col-md-5 text-md-right text-themeDark"><span>© 2018 Sweetaste* All Rights Reserved</span></div>
+			</div>
+		</div>
+	</footer>
+	<script src="public/javascripts/vendor.js"></script>
+</body>

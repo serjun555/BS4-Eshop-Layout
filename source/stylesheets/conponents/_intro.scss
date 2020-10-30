@@ -1,0 +1,31 @@
+.intro{
+	margin:9rem 0px;
+}
+.intro-highLight{
+	margin:-25px 0px;
+}
+.intro-img{
+	min-height: 250px;
+}
+.intro-article{
+	max-height: 420px;
+	line-height: 50px;
+	writing-mode: vertical-rl;
+}
+@media(max-width:768px){
+	.intro{
+	margin:1rem 0px;
+	}
+	.intro-highLight{
+		margin: 0 0;
+	}
+	.intro-img{
+	margin: 0 -15px;
+	}
+	.intro-article{
+		margin-top: 10px;
+		writing-mode: horizontal-tb;
+		line-height: 25px;
+
+	}
+}

@@ -1,0 +1,40 @@
+.item-card{
+	position: relative;
+}
+.item-img{
+	height: 315px;
+}
+.item-tag{
+	position: absolute;
+	top: 0;left: 20px;
+	writing-mode: vertical-rl;
+	color:white;
+	font-family:"PingFang TC";
+	padding: 15px 10px;
+	letter-spacing:5px;
+}
+.item-fav-btn{
+	position: absolute;
+	top: 20px;right: 20px;
+}
+.item-body{
+	border:solid 1px #EAF0ED;
+}
+.item-btn{
+	padding: 15px 0px;
+	font-size: 1.25rem;
+	line-height: 30px;
+
+&+.item-btn{
+	border-left:solid 1px #EAF0ED;
+	}
+}
+.add-cart-btn{
+	text-decoration: none;
+	text-align:center;
+	color:black;
+}
+.add-cart-btn:hover{
+	text-decoration: none;
+	color:black;
+}
